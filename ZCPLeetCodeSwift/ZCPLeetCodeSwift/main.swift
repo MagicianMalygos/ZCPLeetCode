@@ -60,8 +60,33 @@ let start = CACurrentMediaTime()
 //print(Problem12().intToRoman(1994))
 
 // problem13
-print(Problem13().romanToInt("MCMXCIV"))
+//print(Problem13().romanToInt("MCMXCIV"))
 
+// problem14
+//print(Problem14().longestCommonPrefix(["aa", "a"]))
+//print(Problem14().longestCommonPrefix(["filter", "fill", "file"]))
+//print(Problem14().longestCommonPrefix(["car", "green", "orange"]))
+//print(Problem14().longestCommonPrefix(["a"]))
+//print(Problem14().longestCommonPrefix([""]))
+//print(Problem14().longestCommonPrefix([]))
+
+var arr = Array<Int>()
+for i in -10...10 {
+    arr.append(i)
+}
+
+// problem15
+//print(Problem15().threeSum([]))
+//print(Problem15().threeSum([0]))
+//print(Problem15().threeSum([0,0]))
+//print(Problem15().threeSum([-1, 0, 1, 2, -1, -4]))
+
+// problem16
+//print(Problem16().threeSumClosest([], 1))
+
+// problem17
+print(Problem17().letterCombinations("23"))
+print(Problem17().letterCombinations(""))
 
 let end = CACurrentMediaTime()
 print("方法耗时为：\((end-start)*1000)ms")
