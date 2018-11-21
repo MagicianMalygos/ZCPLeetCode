@@ -9,28 +9,51 @@
 import Foundation
 import QuartzCore
 
+public class ListNode: NSObject {
+    public var val: Int = 0
+    public var next: ListNode?
+    public init(_ val: Int) {
+        self.val = val
+        self.next = nil
+    }
+    public init(_ arr: [Int]) {
+        super.init()
+        
+        if arr.count == 0 {
+            self.val = 0
+            self.next = nil
+            return
+        }
+        
+        self.val = arr[0]
+        var tempNode = self
+        
+        for i in 1..<arr.count {
+            let node = ListNode(arr[i])
+            tempNode.next = node
+            tempNode = node
+        }
+    }
+    public override var description: String {
+        var desc: String = "\(self.val)"
+        var tempNode: ListNode? = self.next
+        while tempNode != nil {
+            desc += " -> \(tempNode!.val)"
+            tempNode = tempNode!.next
+        }
+        return desc
+    }
+}
+
 let start = CACurrentMediaTime()
 
 // problem1
 //print(Problem1().twoSum([2, 7, 11, 15], 9))
 
 // prblem2
-//let l1_1 = ListNode(2)
-//let l1_2 = ListNode(4)
-//let l1_3 = ListNode(3)
-//l1_1.next = l1_2
-//l1_2.next = l1_3
-//let l2_1 = ListNode(5)
-//let l2_2 = ListNode(6)
-//let l2_3 = ListNode(4)
-//l2_1.next = l2_2
-//l2_2.next = l2_3
-//
-//var result = Problem2().addTwoNumbers(l1_1, l2_1)
-//while let r = result {
-//    print("\(r.val)")
-//    result = r.next
-//}
+//let l1 = ListNode([2, 4, 3])
+//let l2 = ListNode([5, 6, 4])
+//print(Problem2().addTwoNumbers(l1, l2)!)
 
 // prblem3
 //print(Problem3().lengthOfLongestSubstring("abawpooddddsss"))
@@ -70,11 +93,6 @@ let start = CACurrentMediaTime()
 //print(Problem14().longestCommonPrefix([""]))
 //print(Problem14().longestCommonPrefix([]))
 
-var arr = Array<Int>()
-for i in -10...10 {
-    arr.append(i)
-}
-
 // problem15
 //print(Problem15().threeSum([]))
 //print(Problem15().threeSum([0]))
@@ -85,8 +103,31 @@ for i in -10...10 {
 //print(Problem16().threeSumClosest([], 1))
 
 // problem17
-print(Problem17().letterCombinations("23"))
-print(Problem17().letterCombinations(""))
+//print(Problem17().letterCombinations("23"))
+//print(Problem17().letterCombinations(""))
+
+// problem21
+//let l1 = ListNode([1, 2, 4])
+//let l2 = ListNode([1, 3, 4])
+//print(Problem21().mergeTwoLists(l1, l2))
+
+// problem22
+//print(Problem22().generateParenthesis(4))
+
+// problem24
+//let head = ListNode([])
+//print(Problem24().swapPairs(head)!)
+
+// problem26
+//var nums = [0,0,1,1,1,2,2,3,3,4]
+//print(Problem26().removeDuplicates(&nums))
+
+// problem27
+//var nums = [0,1,2,2,3,0,4,2]
+//var nums = [3,2,2,3]
+var nums = [3]
+//print(Problem27().removeElement(&nums, 3))
+print(Problem27().removeElement2(&nums, 3))
 
 let end = CACurrentMediaTime()
 print("方法耗时为：\((end-start)*1000)ms")
