@@ -51,9 +51,7 @@ let start = CACurrentMediaTime()
 //print(Problem1().twoSum([2, 7, 11, 15], 9))
 
 // prblem2
-//let l1 = ListNode([2, 4, 3])
-//let l2 = ListNode([5, 6, 4])
-//print(Problem2().addTwoNumbers(l1, l2)!)
+//print(Problem2().addTwoNumbers(ListNode([2, 4, 3]), ListNode([5, 6, 4]))!)
 
 // prblem3
 //print(Problem3().lengthOfLongestSubstring("abawpooddddsss"))
@@ -107,16 +105,24 @@ let start = CACurrentMediaTime()
 //print(Problem17().letterCombinations(""))
 
 // problem21
-//let l1 = ListNode([1, 2, 4])
-//let l2 = ListNode([1, 3, 4])
-//print(Problem21().mergeTwoLists(l1, l2))
+//print(Problem21().mergeTwoLists(ListNode([1, 2, 4]), ListNode([1, 3, 4])))
 
 // problem22
 //print(Problem22().generateParenthesis(4))
 
 // problem24
-//let head = ListNode([])
-//print(Problem24().swapPairs(head)!)
+//print(Problem24().swapPairs(ListNode([]))!)
+//print(Problem24().swapPairs(ListNode([1]))!)
+//print(Problem24().swapPairs(ListNode([1,2]))!)
+//print(Problem24().swapPairs(ListNode([1,2,3]))!)
+//print(Problem24().swapPairs(ListNode([1,2,5,6,10,11]))!)
+
+// problem25
+print(Problem25().reverseKGroup(ListNode([1,2,3,4,5]), 2)!)
+print(Problem25().reverseKGroup(ListNode([]), 2)!)
+print(Problem25().reverseKGroup(ListNode([1]), 2)!)
+print(Problem25().reverseKGroup(ListNode([1,2]), 2)!)
+print(Problem25().reverseKGroup(ListNode([1,2,3]), 2)!)
 
 // problem26
 //var nums = [0,0,1,1,1,2,2,3,3,4]
@@ -125,9 +131,9 @@ let start = CACurrentMediaTime()
 // problem27
 //var nums = [0,1,2,2,3,0,4,2]
 //var nums = [3,2,2,3]
-var nums = [3]
+//var nums = [3]
 //print(Problem27().removeElement(&nums, 3))
-print(Problem27().removeElement2(&nums, 3))
+//print(Problem27().removeElement2(&nums, 3))
 
 let end = CACurrentMediaTime()
 print("方法耗时为：\((end-start)*1000)ms")

@@ -30,6 +30,7 @@
 		FB98497421A13F7D00D517EC /* Problem27.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB98497321A13F7D00D517EC /* Problem27.swift */; };
 		FB98497621A2528E00D517EC /* Problem24.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB98497521A2528E00D517EC /* Problem24.swift */; };
 		FB98497821A5170400D517EC /* Problem26.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB98497721A5170400D517EC /* Problem26.swift */; };
+		FB98498021A6422200D517EC /* Problem25.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB98497F21A6422200D517EC /* Problem25.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -69,6 +70,7 @@
 		FB98497321A13F7D00D517EC /* Problem27.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem27.swift; sourceTree = "<group>"; };
 		FB98497521A2528E00D517EC /* Problem24.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem24.swift; sourceTree = "<group>"; };
 		FB98497721A5170400D517EC /* Problem26.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem26.swift; sourceTree = "<group>"; };
+		FB98497F21A6422200D517EC /* Problem25.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem25.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 				FB98496F21A045A900D517EC /* Problem21.swift */,
 				FB98497121A1330700D517EC /* Problem22x.swift */,
 				FB98497521A2528E00D517EC /* Problem24.swift */,
+				FB98497F21A6422200D517EC /* Problem25.swift */,
 				FB98497721A5170400D517EC /* Problem26.swift */,
 				FB98497321A13F7D00D517EC /* Problem27.swift */,
 			);
@@ -203,6 +206,7 @@
 				FB56A8CC219A9E8E00B89696 /* Problem12.swift in Sources */,
 				FB56A8AF219A9E1E00B89696 /* main.swift in Sources */,
 				FB6FE932219EAC2A00B3A591 /* Problem17.swift in Sources */,
+				FB98498021A6422200D517EC /* Problem25.swift in Sources */,
 				FB56A8C8219A9E8500B89696 /* Problem10x.swift in Sources */,
 				FB98497421A13F7D00D517EC /* Problem27.swift in Sources */,
 				FB56A8B6219A9E5100B89696 /* Problem1.swift in Sources */,
