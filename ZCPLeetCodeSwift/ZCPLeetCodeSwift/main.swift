@@ -104,11 +104,19 @@ let start = CACurrentMediaTime()
 //print(Problem17().letterCombinations("23"))
 //print(Problem17().letterCombinations(""))
 
+
+// problem19
+print(Problem19().removeNthFromEnd(ListNode([1,2,3,4,5]), 3))
+//print(Problem19().removeNthFromEnd(ListNode([1]), 0))
+
+
 // problem21
 //print(Problem21().mergeTwoLists(ListNode([1, 2, 4]), ListNode([1, 3, 4])))
 
+
 // problem22
 //print(Problem22().generateParenthesis(4))
+
 
 // problem24
 //print(Problem24().swapPairs(ListNode([]))!)
@@ -117,16 +125,19 @@ let start = CACurrentMediaTime()
 //print(Problem24().swapPairs(ListNode([1,2,3]))!)
 //print(Problem24().swapPairs(ListNode([1,2,5,6,10,11]))!)
 
+
 // problem25
-print(Problem25().reverseKGroup(ListNode([1,2,3,4,5]), 2)!)
-print(Problem25().reverseKGroup(ListNode([]), 2)!)
-print(Problem25().reverseKGroup(ListNode([1]), 2)!)
-print(Problem25().reverseKGroup(ListNode([1,2]), 2)!)
-print(Problem25().reverseKGroup(ListNode([1,2,3]), 2)!)
+//print(Problem25().reverseKGroup(ListNode([1,2,3,4,5]), 2)!)
+//print(Problem25().reverseKGroup(ListNode([]), 2)!)
+//print(Problem25().reverseKGroup(ListNode([1]), 2)!)
+//print(Problem25().reverseKGroup(ListNode([1,2]), 2)!)
+//print(Problem25().reverseKGroup(ListNode([1,2,3]), 2)!)
+
 
 // problem26
 //var nums = [0,0,1,1,1,2,2,3,3,4]
 //print(Problem26().removeDuplicates(&nums))
+
 
 // problem27
 //var nums = [0,1,2,2,3,0,4,2]
@@ -134,6 +145,43 @@ print(Problem25().reverseKGroup(ListNode([1,2,3]), 2)!)
 //var nums = [3]
 //print(Problem27().removeElement(&nums, 3))
 //print(Problem27().removeElement2(&nums, 3))
+
+
+// problem28
+//print(Problem28().strStr("aaaaa", "bba"))
+//print(Problem28().strStr("hello", "ll"))
+//print(Problem28().strStr("aaaaa", ""))
+
+
+// problem29
+//print(Problem29().divide(10, 3))
+//print(Problem29().divide(-10, -3))
+//print(Problem29().divide(7, -3))
+//print(Problem29().divide(-7, 3))
+//print(Problem29().divide(0, 3))
+//print(Problem29().divide(3, 3))
+//print(Problem29().divide(-3, -3))
+//print(Problem29().divide(Int(INT_MAX), 10))
+
+
+// problem34
+//print(Problem34().searchRange([1, 3], 1))
+//print(Problem34().searchRange([5,7,8,8,8,10], 8))
+//print(Problem34().searchRange([5,7,7,8,8,10], 5))
+//print(Problem34().searchRange([5,7,7,8,8,10], 10))
+//print(Problem34().searchRange([5,7,7,8,8,10], 1))
+//print(Problem34().searchRange([5,7,7,8,8,10], 11))
+//print(Problem34().searchRange([], 0))
+
+
+// problem35
+//print(Problem35().searchInsert([1,3,5,6], 5))
+//print(Problem35().searchInsert([1,3,5,6], 4))
+//print(Problem35().searchInsert([1,3,5,6], 0))
+//print(Problem35().searchInsert([1,3,5,6], 10))
+//print(Problem35().searchInsert([], 5))
+//print(Problem35().searchInsert([1], 0))
+
 
 let end = CACurrentMediaTime()
 print("方法耗时为：\((end-start)*1000)ms")

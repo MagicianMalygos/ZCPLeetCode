@@ -8,13 +8,6 @@
 
 import Cocoa
 
-struct Node {
-    var value: String
-    var nexts: Array<Node>
-}
-
-
-
 class Problem17: NSObject {
     
     var resultArr = Array<String>()
@@ -37,7 +30,6 @@ class Problem17: NSObject {
     }
     
     func construct(_ head: String, _ arr: Array<Character>, _ index: Int) {
-        
         if index >= arr.count {
             resultArr.append(head)
             return
