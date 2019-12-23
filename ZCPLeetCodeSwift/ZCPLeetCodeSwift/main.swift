@@ -13,4 +13,7 @@ import QuartzCore
 //print(main10_19())
 //print(main20_29())
 //print(main30_39())
-print(main40_49())
+//print(main40_49())
+//print(main50_59())
+//print(main60_69())
+//print(main70_79())

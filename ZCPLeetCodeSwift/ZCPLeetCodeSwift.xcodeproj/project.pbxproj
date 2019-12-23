@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		650CF24F21DF089300E20261 /* Problem51.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650CF24E21DF089300E20261 /* Problem51.swift */; };
+		653B096321C8F69700DBBCAF /* Problem43x.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653B096221C8F69700DBBCAF /* Problem43x.swift */; };
+		653B096521C9060A00DBBCAF /* Problem38.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653B096421C9060A00DBBCAF /* Problem38.swift */; };
+		653B096821C90FE000DBBCAF /* main50_59.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653B096721C90FE000DBBCAF /* main50_59.swift */; };
+		653B096A21C9102000DBBCAF /* Problem58.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653B096921C9102000DBBCAF /* Problem58.swift */; };
+		653B096D21C9164000DBBCAF /* main60_69.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653B096C21C9164000DBBCAF /* main60_69.swift */; };
+		653B096F21C9169600DBBCAF /* Problem66.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653B096E21C9169600DBBCAF /* Problem66.swift */; };
+		653B097221CA490F00DBBCAF /* main70_79.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653B097121CA490F00DBBCAF /* main70_79.swift */; };
+		653B097421CA497000DBBCAF /* Proble70x.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653B097321CA497000DBBCAF /* Proble70x.swift */; };
+		65646F7A21C3BC5500F0F945 /* Problem49x.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65646F7921C3BC5500F0F945 /* Problem49x.swift */; };
+		65E3CAC721C26E25003A6A07 /* Problem45.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E3CAC621C26E25003A6A07 /* Problem45.swift */; };
+		65E3CAC921C27CD7003A6A07 /* Problem48.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E3CAC821C27CD7003A6A07 /* Problem48.swift */; };
+		65F3E25D223B8B9100057F1B /* Problem50.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F3E25C223B8B9100057F1B /* Problem50.swift */; };
+		65F3E25F223B91B500057F1B /* Problem53x.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F3E25E223B91B500057F1B /* Problem53x.swift */; };
+		65F3E261223B98FD00057F1B /* Problem55.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F3E260223B98FD00057F1B /* Problem55.swift */; };
 		FB56A8AF219A9E1E00B89696 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB56A8AE219A9E1E00B89696 /* main.swift */; };
 		FBA1154C21AE766500A10F13 /* Problem36x.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA1154B21AE766500A10F13 /* Problem36x.swift */; };
 		FBA1154F21AE866C00A10F13 /* main40_49.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA1154E21AE866C00A10F13 /* main40_49.swift */; };
@@ -61,6 +76,21 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		650CF24E21DF089300E20261 /* Problem51.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem51.swift; sourceTree = "<group>"; };
+		653B096221C8F69700DBBCAF /* Problem43x.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem43x.swift; sourceTree = "<group>"; };
+		653B096421C9060A00DBBCAF /* Problem38.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem38.swift; sourceTree = "<group>"; };
+		653B096721C90FE000DBBCAF /* main50_59.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main50_59.swift; sourceTree = "<group>"; };
+		653B096921C9102000DBBCAF /* Problem58.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem58.swift; sourceTree = "<group>"; };
+		653B096C21C9164000DBBCAF /* main60_69.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main60_69.swift; sourceTree = "<group>"; };
+		653B096E21C9169600DBBCAF /* Problem66.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem66.swift; sourceTree = "<group>"; };
+		653B097121CA490F00DBBCAF /* main70_79.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main70_79.swift; sourceTree = "<group>"; };
+		653B097321CA497000DBBCAF /* Proble70x.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proble70x.swift; sourceTree = "<group>"; };
+		65646F7921C3BC5500F0F945 /* Problem49x.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem49x.swift; sourceTree = "<group>"; };
+		65E3CAC621C26E25003A6A07 /* Problem45.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem45.swift; sourceTree = "<group>"; };
+		65E3CAC821C27CD7003A6A07 /* Problem48.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem48.swift; sourceTree = "<group>"; };
+		65F3E25C223B8B9100057F1B /* Problem50.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem50.swift; sourceTree = "<group>"; };
+		65F3E25E223B91B500057F1B /* Problem53x.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem53x.swift; sourceTree = "<group>"; };
+		65F3E260223B98FD00057F1B /* Problem55.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem55.swift; sourceTree = "<group>"; };
 		FB56A8AB219A9E1E00B89696 /* ZCPLeetCodeSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ZCPLeetCodeSwift; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB56A8AE219A9E1E00B89696 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		FBA1154B21AE766500A10F13 /* Problem36x.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem36x.swift; sourceTree = "<group>"; };
@@ -114,6 +144,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		653B096621C90FC600DBBCAF /* 50~59 */ = {
+			isa = PBXGroup;
+			children = (
+				653B096721C90FE000DBBCAF /* main50_59.swift */,
+				65F3E25C223B8B9100057F1B /* Problem50.swift */,
+				650CF24E21DF089300E20261 /* Problem51.swift */,
+				65F3E25E223B91B500057F1B /* Problem53x.swift */,
+				65F3E260223B98FD00057F1B /* Problem55.swift */,
+				653B096921C9102000DBBCAF /* Problem58.swift */,
+			);
+			path = "50~59";
+			sourceTree = "<group>";
+		};
+		653B096B21C9163400DBBCAF /* 60~69 */ = {
+			isa = PBXGroup;
+			children = (
+				653B096C21C9164000DBBCAF /* main60_69.swift */,
+				653B096E21C9169600DBBCAF /* Problem66.swift */,
+			);
+			path = "60~69";
+			sourceTree = "<group>";
+		};
+		653B097021CA489D00DBBCAF /* 70~79 */ = {
+			isa = PBXGroup;
+			children = (
+				653B097121CA490F00DBBCAF /* main70_79.swift */,
+				653B097321CA497000DBBCAF /* Proble70x.swift */,
+			);
+			path = "70~79";
+			sourceTree = "<group>";
+		};
 		FB56A8A2219A9E1E00B89696 = {
 			isa = PBXGroup;
 			children = (
@@ -140,6 +201,9 @@
 				FBAFE79121AD261800FD870C /* 20-29 */,
 				FBAFE7AE21AD261800FD870C /* 30-39 */,
 				FBA1154D21AE865000A10F13 /* 40~49 */,
+				653B096621C90FC600DBBCAF /* 50~59 */,
+				653B096B21C9163400DBBCAF /* 60~69 */,
+				653B097021CA489D00DBBCAF /* 70~79 */,
 			);
 			path = ZCPLeetCodeSwift;
 			sourceTree = "<group>";
@@ -150,6 +214,10 @@
 				FBA1154E21AE866C00A10F13 /* main40_49.swift */,
 				FBA1155021AE867400A10F13 /* Problem41.swift */,
 				FBA1155221AE8C2400A10F13 /* Problem42.swift */,
+				653B096221C8F69700DBBCAF /* Problem43x.swift */,
+				65E3CAC621C26E25003A6A07 /* Problem45.swift */,
+				65E3CAC821C27CD7003A6A07 /* Problem48.swift */,
+				65646F7921C3BC5500F0F945 /* Problem49x.swift */,
 			);
 			path = "40~49";
 			sourceTree = "<group>";
@@ -212,6 +280,7 @@
 				FBAFE7AF21AD261800FD870C /* Problem34.swift */,
 				FBAFE7B021AD261800FD870C /* Problem35.swift */,
 				FBA1154B21AE766500A10F13 /* Problem36x.swift */,
+				653B096421C9060A00DBBCAF /* Problem38.swift */,
 			);
 			path = "30-39";
 			sourceTree = "<group>";
@@ -256,6 +325,7 @@
 				TargetAttributes = {
 					FB56A8AA219A9E1E00B89696 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -282,14 +352,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBAFE7F521AD26D700FD870C /* Problem15.swift in Sources */,
+				653B096821C90FE000DBBCAF /* main50_59.swift in Sources */,
 				FBAFE7D921AD262600FD870C /* Problem8.swift in Sources */,
+				653B096521C9060A00DBBCAF /* Problem38.swift in Sources */,
+				65F3E25D223B8B9100057F1B /* Problem50.swift in Sources */,
 				FBAFE7DC21AD262600FD870C /* Problem3.swift in Sources */,
 				FBAFE80721AD272A00FD870C /* Problem26.swift in Sources */,
+				653B097421CA497000DBBCAF /* Proble70x.swift in Sources */,
 				FBAFE80D21AD27A200FD870C /* Problem31.swift in Sources */,
 				FBAFE7E521AD266700FD870C /* ListNode.swift in Sources */,
 				FBAFE7F021AD26D700FD870C /* Problem11.swift in Sources */,
 				FBAFE7DA21AD262600FD870C /* Problem9.swift in Sources */,
+				653B097221CA490F00DBBCAF /* main70_79.swift in Sources */,
 				FBAFE7DB21AD262600FD870C /* Problem1.swift in Sources */,
+				650CF24F21DF089300E20261 /* Problem51.swift in Sources */,
 				FBAFE7D721AD262600FD870C /* Problem7.swift in Sources */,
 				FBAFE80021AD272A00FD870C /* Problem22x.swift in Sources */,
 				FBAFE7CB21AD261800FD870C /* Problem34.swift in Sources */,
@@ -300,23 +376,32 @@
 				FBAFE7CC21AD261800FD870C /* Problem35.swift in Sources */,
 				FBA1154F21AE866C00A10F13 /* main40_49.swift in Sources */,
 				FBAFE80321AD272A00FD870C /* Problem24.swift in Sources */,
+				65E3CAC921C27CD7003A6A07 /* Problem48.swift in Sources */,
 				FBAFE80621AD272A00FD870C /* Problem21.swift in Sources */,
 				FBAFE7E021AD262600FD870C /* Problem4.swift in Sources */,
+				653B096A21C9102000DBBCAF /* Problem58.swift in Sources */,
+				65F3E261223B98FD00057F1B /* Problem55.swift in Sources */,
 				FBAFE80921AD273400FD870C /* main20_29.swift in Sources */,
 				FBAFE7DF21AD262600FD870C /* Problem6.swift in Sources */,
 				FBAFE7EE21AD26D700FD870C /* Problem13.swift in Sources */,
+				65F3E25F223B91B500057F1B /* Problem53x.swift in Sources */,
 				FBAFE80121AD272A00FD870C /* Problem25.swift in Sources */,
 				FBAFE7DD21AD262600FD870C /* Problem5.swift in Sources */,
 				FBAFE7F221AD26D700FD870C /* Problem12.swift in Sources */,
 				FBAFE7DE21AD262600FD870C /* Problem10x.swift in Sources */,
+				65E3CAC721C26E25003A6A07 /* Problem45.swift in Sources */,
 				FBAFE7F121AD26D700FD870C /* Problem14.swift in Sources */,
+				653B096D21C9164000DBBCAF /* main60_69.swift in Sources */,
 				FBAFE80421AD272A00FD870C /* Problem28.swift in Sources */,
 				FBAFE7F421AD26D700FD870C /* Problem16x.swift in Sources */,
 				FBAFE7F721AD26DE00FD870C /* main10_19.swift in Sources */,
+				653B096321C8F69700DBBCAF /* Problem43x.swift in Sources */,
+				653B096F21C9169600DBBCAF /* Problem66.swift in Sources */,
 				FBAFE80521AD272A00FD870C /* Problem29x.swift in Sources */,
 				FBA1155121AE867400A10F13 /* Problem41.swift in Sources */,
 				FBAFE7D821AD262600FD870C /* Problem2.swift in Sources */,
 				FBAFE7F321AD26D700FD870C /* Problem17.swift in Sources */,
+				65646F7A21C3BC5500F0F945 /* Problem49x.swift in Sources */,
 				FBA1155321AE8C2400A10F13 /* Problem42.swift in Sources */,
 				FBAFE7EF21AD26D700FD870C /* Problem19.swift in Sources */,
 				FBAFE80221AD272A00FD870C /* Problem27.swift in Sources */,
@@ -444,9 +529,16 @@
 		FB56A8B3219A9E1E00B89696 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WG5B567WWS;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@loader_path/../Frameworks",
+					"@executable_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
@@ -454,8 +546,14 @@
 		FB56A8B4219A9E1E00B89696 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WG5B567WWS;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@loader_path/../Frameworks",
+					"@executable_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};

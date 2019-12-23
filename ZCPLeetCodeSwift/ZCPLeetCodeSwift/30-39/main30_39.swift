@@ -41,7 +41,7 @@ func main30_39() -> Double {
     //print(Problem35().searchInsert([1], 0))
     
     
-    // problem35
+    // problem36
 //    print(Problem36().isValidSudoku([
 //        ["8","3",".",".","7",".",".",".","."],
 //        ["6",".",".","1","9","5",".",".","."],
@@ -65,6 +65,10 @@ func main30_39() -> Double {
 //        ["3",".",".",".",".",".","4","2","."],
 //        [".",".",".","2","7",".","6",".","."]
 //        ]))
+    
+    
+    // problem38
+    print(Problem38().countAndSay(30))
     
     let end = CACurrentMediaTime()
     return (end-start)*1000
